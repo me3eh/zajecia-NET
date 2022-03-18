@@ -19,3 +19,15 @@ body {
 .lol {
   width: 10000vw;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.som:empty{
+  display: none;
+}
