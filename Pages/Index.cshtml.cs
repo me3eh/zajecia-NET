@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using FizzBuzz.Models;
+using Newtonsoft.Json;
 
 namespace FizzBuzz.Pages;
 
@@ -31,17 +32,10 @@ public class IndexModel : PageModel
     }
     public IActionResult OnPost()
     {
-        if(!ModelState.IsValid){
-            return Page();
+        if (ModelState.IsValid){
+            HttpContext.Session.SetString("Data", JsonConvert.SerializeObject(FizzBuzz));
+            return RedirectToPage("./SavedInSession");
         }
-        else{
-            if( FizzBuzz.Number % 3 == 0)
-                Success += "Fizz";
-            if( FizzBuzz.Number % 5 == 0)
-                Success += "Buzz";
-            if(string.IsNullOrEmpty(Success) )
-                Success += "Liczba: " + FizzBuzz.Number + " nie spełnia kryteriów FizzBuzz"; 
-            return Page();
-        }
+        return Page();
     }
 }

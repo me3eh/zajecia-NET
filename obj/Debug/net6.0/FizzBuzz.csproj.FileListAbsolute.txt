@@ -24,3 +24,6 @@ C:\Users\matt3\Desktop\.net\FizzBuzz\obj\Debug\net6.0\refint\FizzBuzz.dll
 C:\Users\matt3\Desktop\.net\FizzBuzz\obj\Debug\net6.0\FizzBuzz.pdb
 C:\Users\matt3\Desktop\.net\FizzBuzz\obj\Debug\net6.0\FizzBuzz.genruntimeconfig.cache
 C:\Users\matt3\Desktop\.net\FizzBuzz\obj\Debug\net6.0\ref\FizzBuzz.dll
+C:\Users\matt3\Desktop\.NET\FizzBuzz\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\matt3\Desktop\.NET\FizzBuzz\obj\Debug\net6.0\FizzBuzz.csproj.CopyComplete
+C:\Users\matt3\Desktop\.NET\FizzBuzz\bin\Debug\net6.0\Newtonsoft.Json.dll
