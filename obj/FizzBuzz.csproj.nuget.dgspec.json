@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matt3\\Desktop\\.NET\\FizzBuzz\\FizzBuzz.csproj": {}
+    "C:\\Users\\matt3\\desktop\\.net\\Fizzbuzz\\FizzBuzz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matt3\\Desktop\\.NET\\FizzBuzz\\FizzBuzz.csproj": {
+    "C:\\Users\\matt3\\desktop\\.net\\Fizzbuzz\\FizzBuzz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matt3\\Desktop\\.NET\\FizzBuzz\\FizzBuzz.csproj",
+        "projectUniqueName": "C:\\Users\\matt3\\desktop\\.net\\Fizzbuzz\\FizzBuzz.csproj",
         "projectName": "FizzBuzz",
-        "projectPath": "C:\\Users\\matt3\\Desktop\\.NET\\FizzBuzz\\FizzBuzz.csproj",
+        "projectPath": "C:\\Users\\matt3\\desktop\\.net\\Fizzbuzz\\FizzBuzz.csproj",
         "packagesPath": "C:\\Users\\matt3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matt3\\Desktop\\.NET\\FizzBuzz\\obj\\",
+        "outputPath": "C:\\Users\\matt3\\desktop\\.net\\Fizzbuzz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\matt3\\AppData\\Roaming\\NuGet\\NuGet.Config"
