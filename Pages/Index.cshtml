@@ -4,12 +4,13 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
+<div class="text-left">
     <h1 class="display-4">Welcome @Model.Name</h1>
     <form method="post">
         <label asp-for="FizzBuzz.Number"></label>
+        <br/>
         <input asp-for="FizzBuzz.Number" /><br />
-        <button type="submit" class="btn btn-info ">Confirm</button>
+        <button type="submit" class="btn btn-primary">Zatwierdź</button>
         <div id="alert" class="alert alert-danger" role="alert">
             <span asp-validation-for="FizzBuzz.Number" class="alert alert-danger text-danger"></span>
         </div>
