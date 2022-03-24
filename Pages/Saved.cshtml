@@ -1,0 +1,16 @@
+﻿@page
+@model LeapYear.Pages.SavedModel
+@{
+}
+
+@foreach (var information in @Model.arrayWithInformationsAboutLeapYear)
+{
+    <p>@information</p>
+}
+@if(@Model.arrayWithInformationsAboutLeapYear.Count == 0)
+{
+    <p>
+        Uzupełnij dane na <a href="/">tej stronie </a>, a pojawią się tutaj rzeczy
+        <img src="https://c.tenor.com/WdMAHbF-yVYAAAAM/think-about-it-reece-simpson.gif"/>
+    </p>
+}
