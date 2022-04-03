@@ -1,7 +1,12 @@
+using LeapYear.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddDbContext<LeapYearContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("nowa")));
 
 builder.Services.AddMemoryCache();
 builder.Services.AddSession(options =>

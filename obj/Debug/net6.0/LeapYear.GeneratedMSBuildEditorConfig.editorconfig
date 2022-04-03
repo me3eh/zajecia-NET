@@ -23,6 +23,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/matt3/desktop/.net/leapyear/Pages/lastSearched.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbGFzdFNlYXJjaGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/matt3/desktop/.net/leapyear/Pages/Person/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/matt3/desktop/.net/leapyear/Pages/Person/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/matt3/desktop/.net/leapyear/Pages/Person/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/matt3/desktop/.net/leapyear/Pages/Person/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/matt3/desktop/.net/leapyear/Pages/Person/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/matt3/desktop/.net/leapyear/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

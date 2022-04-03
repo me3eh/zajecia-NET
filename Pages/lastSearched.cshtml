@@ -1,0 +1,11 @@
+﻿@page
+@model LeapYear.Pages.lastSearchedModel
+@{
+}
+
+@if (Model.LeapYearPeople != null){
+    @foreach (var item in Model.LeapYearPeople)
+    {
+        <p>@Html.DisplayFor(modelItem => item.Outcome)</p>
+    }
+}
