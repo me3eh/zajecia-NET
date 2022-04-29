@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\matt3\\Pulpit\\zadania z dotnet\\SplendidMiddleware\\SplendidMiddleware.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\matt3\\Pulpit\\zadania z dotnet\\SplendidMiddleware\\SplendidMiddleware.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\matt3\\Pulpit\\zadania z dotnet\\SplendidMiddleware\\SplendidMiddleware.csproj",
+        "projectName": "SplendidMiddleware",
+        "projectPath": "C:\\Users\\matt3\\Pulpit\\zadania z dotnet\\SplendidMiddleware\\SplendidMiddleware.csproj",
+        "packagesPath": "C:\\Users\\matt3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matt3\\Pulpit\\zadania z dotnet\\SplendidMiddleware\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\matt3\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Shyjus.BrowserDetector": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Wangkanai.Detection": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "uaParser": {
+              "target": "Package",
+              "version": "[3.1.47, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
