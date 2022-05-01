@@ -6,6 +6,7 @@ using LeapYear.Data;
 using System.Collections;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
+using System.Security.Claims;
 
 namespace LeapYear.Pages;
 
@@ -52,6 +53,12 @@ public class IndexModel : PageModel
             //zapis do bazy danych 
             LeapYear.Outcome = SuccessMessage;
             LeapYear.TimeOfWrite = DateTime.Now;
+
+            if(User.Identity.IsAuthenticated)
+                LeapYear.IdOfUser = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            else
+                LeapYear.IdOfUser = "-1";
+            
             _context.Person.Add(LeapYear);
             _context.SaveChanges();
             return Page();

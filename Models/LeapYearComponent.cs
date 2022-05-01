@@ -20,6 +20,8 @@ namespace LeapYear.Models
         StringLength(10, ErrorMessage = "{0} wartość nie może przekraczać {1} znaków. ")]  
         public String? LastName { get; set; }
 
+        public String? IdOfUser { get; set; }
+
         [Display(Name = "Czas utworzenia")]
         public DateTime? TimeOfWrite { get; set; }
 

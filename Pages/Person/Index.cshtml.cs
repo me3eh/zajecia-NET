@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using LeapYear.Data;
 using LeapYear.Models;
+using System.Security.Claims;
 
 namespace LeapYear.Pages.Person
 {

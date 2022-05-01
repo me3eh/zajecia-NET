@@ -2,10 +2,17 @@
 @model LeapYear.Pages.lastSearchedModel
 @{
 }
-
-@if (Model.LeapYearPeople != null){
-    @foreach (var item in Model.LeapYearPeople)
-    {
-        <p>@Html.DisplayFor(modelItem => item.Outcome)</p>
+@if(User.Identity.IsAuthenticated) 
+{
+    @if (Model.LeapYearPeople != null){
+        @foreach (var item in Model.LeapYearPeople)
+        {
+            <p>@Html.DisplayFor(modelItem => item.Outcome)</p>
+        }
     }
 }
+else
+{
+    <p>Hihi zaloguj sie</p>
+}
+

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RgKFX0aW6kyQBIQsEct8qdUl4z7IFwClGmuj/H7tqCDnVsqoQTaY8ii5+xeuHk3gPxbkiltjA1qo+cy9WYSSxQ==",
+  "dgSpecHash": "LWNFRg0eTqD61K0uOY3Zuxt2IK5X/XDOqe4O0BlX8Pb7Yn7aWooU9nVvvBzLEZn4JNZCkdkR2ThDexqJgT4tZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matt3\\Pulpit\\zajecia-NET\\LeapYear.csproj",
+  "projectFilePath": "C:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\LeapYear.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matt3\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\matt3\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

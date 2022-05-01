@@ -10140,11 +10140,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matt3\\Pulpit\\zajecia-NET\\LeapYear.csproj",
+      "projectUniqueName": "C:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\LeapYear.csproj",
       "projectName": "LeapYear",
-      "projectPath": "C:\\Users\\matt3\\Pulpit\\zajecia-NET\\LeapYear.csproj",
+      "projectPath": "C:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\LeapYear.csproj",
       "packagesPath": "C:\\Users\\matt3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matt3\\Pulpit\\zajecia-NET\\obj\\",
+      "outputPath": "C:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matt3\\AppData\\Roaming\\NuGet\\NuGet.Config"

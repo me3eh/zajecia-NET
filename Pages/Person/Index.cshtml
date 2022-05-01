@@ -1,6 +1,6 @@
 @page
 @model LeapYear.Pages.Person.IndexModel
-
+@using System.Security.Claims;
 @{
     ViewData["Title"] = "Index";
 }
@@ -50,8 +50,12 @@
                 @Html.DisplayFor(modelItem => item.Outcome)
             </td>
             <td>
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> 
+                @if(User.Identity.IsAuthenticated && item.IdOfUser == User.FindFirstValue(ClaimTypes.NameIdentifier))
+                {
+                    <span></span>|</span>
+                     <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                }
             </td>
         </tr>
 }
