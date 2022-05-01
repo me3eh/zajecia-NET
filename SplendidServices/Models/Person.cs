@@ -14,4 +14,6 @@ public class Person {
     public string LastName { get; set; }
     public virtual ICollection<Address>? Addresses { get; set; }
     public ICollection<PersonGroup>? PersonGroups { get; set; }
+
+    public bool IsActive { get; set; }
 }
