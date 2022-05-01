@@ -1,10 +1,16 @@
 using SplendidServices.Data;
 using Microsoft.EntityFrameworkCore;
+using SplendidServices.Services;
+using SplendidServices.Repositories;
+using SplendidServices.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddTransient<IPersonService, PersonService>();
+builder.Services.AddTransient<IPersonRepository, PersonRepository>();
 
 builder.Services.AddDbContext<PeopleContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("nowa")));
 

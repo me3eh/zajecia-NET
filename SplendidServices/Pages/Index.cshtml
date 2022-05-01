@@ -27,4 +27,10 @@
         <p>@Html.DisplayFor(modelItem => item.FirstName)
         @Html.DisplayFor(modelItem => item.LastName)</p>
     }
+    <div class="text-center">
+        <p>W bazie jest @Model.Records.Count obiektów. Lista aktywnych osób:</p>
+        @foreach (var item in Model.Records.People) {
+            <p>@item.FullName</p>
+        }
+    </div>
 </div>
