@@ -1,10 +1,18 @@
 using LeapYear.Data;
 using Microsoft.EntityFrameworkCore;
+using LeapYear.Interfaces;
+using LeapYear.Services;
+using LeapYear.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddControllers();
+
+builder.Services.AddTransient<ILeapYearRepository, LeapYearRepository>();
+builder.Services.AddTransient<ILeapYearService, LeapYearService>();
 
 builder.Services.AddDbContext<LeapYearContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("nowa")));
 

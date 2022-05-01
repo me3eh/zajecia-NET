@@ -1,10 +1,9 @@
-﻿@page
-@model LeapYear.Pages.lastSearchedModel
-@{
-}
+﻿
+@page
+@model lastSearchedModel
 
 @if (Model.LeapYearPeople != null){
-    @foreach (var item in Model.LeapYearPeople)
+    @foreach (var item in Model.LeapYearPeople.LeapYears)
     {
         <p>@Html.DisplayFor(modelItem => item.Outcome)</p>
     }

@@ -24,8 +24,9 @@ namespace LeapYear.Models
         public DateTime? TimeOfWrite { get; set; }
 
         [Display(Name = "Wynik")]
-        public String? Outcome {get; set;}
+        public String? Outcome { get; set; }
         
+        public bool isActive { get; set; }
         public String isYearLeapYear()
         {
             if( Year % 400 == 0 )
