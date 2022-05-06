@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\LeapYear.csproj",
+  "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\LeapYear.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,88 +16298,88 @@
   "RootNamespace": "LeapYear",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Pages\\lastSearched.cshtml",
-      "TargetPath": "Pages\\lastSearched.cshtml",
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Pages\\Person\\Index.cshtml",
-      "TargetPath": "Pages\\Person\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Pages\\Saved.cshtml",
-      "TargetPath": "Pages\\Saved.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Pages\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_LoginPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Pages\\Person\\Details.cshtml",
-      "TargetPath": "Pages\\Person\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Pages\\Person\\Create.cshtml",
-      "TargetPath": "Pages\\Person\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Pages\\Person\\Delete.cshtml",
-      "TargetPath": "Pages\\Person\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Pages\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Pages\\Person\\Edit.cshtml",
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Pages\\Person\\Edit.cshtml",
       "TargetPath": "Pages\\Person\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\matt3\\Pulpit\\zajecia-NET\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Pages\\Person\\Index.cshtml",
+      "TargetPath": "Pages\\Person\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Pages\\Person\\Create.cshtml",
+      "TargetPath": "Pages\\Person\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Pages\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Pages\\Person\\Delete.cshtml",
+      "TargetPath": "Pages\\Person\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Pages\\lastSearched.cshtml",
+      "TargetPath": "Pages\\lastSearched.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Pages\\Person\\Details.cshtml",
+      "TargetPath": "Pages\\Person\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\matt3\\Pulpit\\zadania z dotnet\\zajecia-NET\\Pages\\Saved.cshtml",
+      "TargetPath": "Pages\\Saved.cshtml",
       "FileKind": "mvc"
     }
   ],
