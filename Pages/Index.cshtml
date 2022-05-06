@@ -27,13 +27,14 @@
         </div>
     </form>
     <br/><br/>
-    @* @if (Model.LeapYearPeople != null) *@
-    @foreach (var item in Model.LeapYearPeople.LeapYears)
-    {
-        <p>@* <p>@Html.DisplayFor(modelItem => item.FullName)
-        @Html.DisplayFor(modelItem => item.Year) *@
-        @Html.DisplayFor(modelItem => item.Outcome)</p>
-    }
+    @if (Model.LeapYearPeople != null){
+        <h1>Dzisiejsze wpisy</h1>
+        @foreach (var item in Model.LeapYearPeople.LeapYears)
+        {
+            <p>@Html.DisplayFor(modelItem => item.Outcome)</p>
+        }
+}
+    
 </div>
 <script>
     let alert = document.getElementById("alert");
